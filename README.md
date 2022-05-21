@@ -42,6 +42,11 @@ Where isomiR is miRNA name, expression_median is the median of miRNA expression,
 TCGA-COAD example:   
 <img src="https://github.com/IlonaGA/Analysis-of-5--isomiR-targeting/blob/main/Images/TCGA-COAD.png" width="800"/>  
 
+**5_plots.py** draws scatterplots TCGA-CHOL, TCGA-PCPG, these two cancers have the biggest and the smallest Spearmanʹs correlation coefficients between the number of predicted targets and the number of anti-correlating targets. Scrips also creates a dotplot which shows Spearmanʹs correlation coefficient for each cancer.  
+
+Plot:  
+<img src="https://github.com/IlonaGA/Analysis-of-5--isomiR-targeting/blob/main/Images/res.png" width="800"/>  
+
 
 ### Results:  
 - Activity of 5’-isomiRs adjusted for background correlation effects was infered;  
