@@ -35,7 +35,11 @@ Example of of result file table:
   
 Where isomiR is miRNA name, expression_median is the median of miRNA expression, activity is miRNA activity, p_value is p-value for activity, FDR is False Discovery Rate.
 
-**target_intersection.py** takes files with activities and list of miRNAs and then finds target intersections for them. Script is useful for understanding which miRNAs have the same targets genes.  
+**3_target_intersection.py** takes files with activities and list of miRNAs and then finds target intersections for them. Script is useful for understanding which miRNAs have the same targets genes.  
+
+**4_interaction_networks.py** requeres raw and summary files and the list of  highly expressed miRNAs. Draws interaction graphs using Cytoscape.
+
+Example:  
   
 
 ### Results:
