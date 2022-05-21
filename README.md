@@ -1,4 +1,8 @@
 # Analysis-of-5-isomiR-targeting
+
+### Background  
+MiRNAs are short non-coding molecules that are able to regulate gene expression post-transcriptionally (1). Previous studies showed that miRNAs may have variabilities at their 5ʹ- and 3ʹ-ends, which appear during miRNA proccessing due to innacurate cleavage of Drosha and Dicer enzymes, these variants of miRNAs were named isomiRs (2, 3).
+
 ### Aim 
 To analyse and identify 5’-isomiRs with significant targeting activity in a given set of samples with available isomiR/mRNA expression data.
 
@@ -58,5 +62,9 @@ Plot:
 - Isoforms of one miRNA can have different target genes;
 - Distribution of Spearmanʹs correlation coefficients between the number of predicted targets and the number of anti-correlating targets varies for different types of cancer.
 
+### References
 
+1. Hobert,O. (2008) Gene regulation by transcription factors and microRNAs. Science, 319, 1785–6.
+2. Morin,R.D., O’Connor,M.D., Griffith,M., Kuchenbauer,F., Delaney,A., Prabhu,A.L., Zhao,Y., McDonald,H., Zeng,T., Hirst,M., et al. (2008) Application of massively parallel sequencing  to microRNA profiling and discovery in human embryonic stem cells. Genome Res., 18, 610–621.
+3. Neilsen,C.T., Goodall,G.J. and Bracken,C.P. (2012) IsomiRs – the overlooked repertoire in the dynamic microRNAome. Trends Genet., 28, 544–549.
  
