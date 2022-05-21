@@ -1,9 +1,9 @@
 # Analysis-of-5-isomiR-targeting
 
 ### Background  
-MiRNAs are short non-coding molecules that are able to regulate gene expression post-transcriptionally (1). Previous studies showed that miRNAs may have variabilities at their 5ʹ- and 3ʹ-ends, which appear during miRNA proccessing due to innacurate cleavage of Drosha and Dicer enzymes, these variants of miRNAs were named isomiRs (2, 3). Each miRNA binds to its target-gene via seed region, that is nucleotides sequence located at positions 2-7 of 5'-end. Single nucleotide variation at the 5ʹ-end could alter the seed sequence, which can lead to different target gene binding.
+MiRNAs are short non-coding molecules that are able to regulate gene expression post-transcriptionally (1). Previous studies showed that miRNAs may have variabilities at their 5ʹ- and 3ʹ-ends, which appear during miRNA proccessing due to innacurate cleavage of Drosha and Dicer enzymes, these variants of miRNAs were named isomiRs (2, 3). Each miRNA binds to its target-gene via seed region, that is nucleotides sequence located at positions 2-7 of 5'-end. Single nucleotide variation at the 5ʹ-end could alter the seed sequence, which can lead to different target gene binding.  
 MiRNA processing (4):  
-<img src="[https://github.com/IlonaGA/Analysis-of-5--isomiR-targeting/blob/main/Images/res.png](https://www.mdpi.com/ijms/ijms-21-01723/article_deploy/html/images/ijms-21-01723-g001.png)" width="500"/> 
+<img src="https://www.mdpi.com/ijms/ijms-21-01723/article_deploy/html/images/ijms-21-01723-g001.png" width="500"/> 
 
 
 ### Aim 
