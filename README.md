@@ -39,8 +39,9 @@ Where isomiR is miRNA name, expression_median is the median of miRNA expression,
 
 **4_interaction_networks.py** requeres raw and summary files and the list of  highly expressed miRNAs. Draws interaction graphs using Cytoscape.
 
-Example:  
-<img src="https://github.com/IlonaGA/Analysis-of-5--isomiR-targeting/blob/main/images/TCGA-COAD.png" width="400"/>
+TCGA-COAD example:   
+<img src="https://github.com/IlonaGA/Analysis-of-5--isomiR-targeting/blob/main/images/TCGA-COAD.png" width="800"/>  
+
 
 ### Results:
 - 38% of highly expressed isomiRs (63 entries) were expressed in 10 or more cancer types, including 11 non-canonical 5’-isomiRs;  
