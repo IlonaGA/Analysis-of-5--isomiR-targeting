@@ -49,6 +49,8 @@ TCGA-COAD example:
 - Dependency between the number of predicted targets and the number of anti-correlating targets was examined.
 
 ### Conclusions:
+- The set of microRNAs and their target-genes pairs differs between cancer types, which may have a functional effect;
+- Isoforms of one miRNA can have different target genes;
 - Distribution of Spearmanʹs correlation coefficients between the number of predicted targets and the number of anti-correlating targets varies for different types of cancer.
 
 
