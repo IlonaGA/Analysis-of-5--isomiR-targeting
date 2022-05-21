@@ -4,7 +4,8 @@ To analyse and identify 5’-isomiRs with significant targeting activity in a gi
 
 ### Repository description:
 Repository contains scripts which were used for calculating miRNAs activity. 
-* 1_create_raw_and_summary.py * takes RPM-normalized TCGA data and the list of predicted targets for each TCGA project. The result of script is two tables: TCGA_project_name_raw.tsv and TCGA_project_name_summary.tsv.  
+**1_create_raw_and_summary.py** takes RPM-normalized TCGA data and the list of predicted targets for each TCGA project. The result of script is two tables: TCGA_project_name_raw.tsv and TCGA_project_name_summary.tsv.  
+  
 Example of TCGA_project_name_raw.tsv table:  
   
 | isomiR | gene	| isomiR_expression_median | gene_expression_median |	corr | sample size | proba |  
@@ -23,7 +24,7 @@ hsa-miR-424-5p/0 |	9.549397891501824 |	206 |	22 |
 
 Where isomiR is miRNA name, expression_median is the median of miRNA expression, predicted_targets is number of predicted targets, sign_corr is amount of anti-correlated target genes.
 
-- 
+
 
 
 ### Results:
