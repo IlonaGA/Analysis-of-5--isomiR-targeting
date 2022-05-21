@@ -36,12 +36,12 @@ for database in databases:
     files = []
     dotplot_df = []
 
-    for file in os.listdir(f'/huge/steve/isomiR_research/{database}/corr_analysis/TMM-RPM/'):
+    for file in os.listdir(f'/path/to/directory/{database}/corr_analysis/'): # Path to data
         files.append(file.split('_')[0])
     files = set(files)
 
     for project in files:
-        data = pd.read_csv(f'/huge/steve/isomiR_research/{database}/corr_analysis/TMM-RPM/{project}_tumor_summary.tsv', sep='\t', index_col=0)
+        data = pd.read_csv(f'/path/to/directory/{database}/corr_analysis/{project}_tumor_summary.tsv', sep='\t', index_col=0) # Path to data
         highly_expressed = pd.read_csv(f'//{project}_tumor.tsv', sep='\t', index_col=0) # Highly expressed isomiRs list
 
         data = data.loc[set(data.index) & set(highly_expressed.index)]
