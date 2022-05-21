@@ -24,8 +24,19 @@ hsa-miR-424-5p/0 |	9.549397891501824 |	206 |	22 |
 
 Where isomiR is miRNA name, expression_median is the median of miRNA expression, predicted_targets is number of predicted targets, sign_corr is amount of anti-correlated target genes.
 
+**2_activity_analysis.py** takes result files obtained by **1_create_raw_and_summary.py** and highly expressed miRNAs list an calculates activity for each miRNA.  
 
+Example of of result file table:  
 
+| isomiR | expression_median | activity |	p_value |	FDR |  
+| ------------- | ------------- | ------------- | ------------- |  
+| hsa-miR-29c-3p/0 | 12.386809776223426 |	7.0 |	7.474732213013041e-09 |	4.0363553950270426e-07 |  
+| hsa-miR-30a-5p/0 |	17.094263109900616 |	1.0 |	0.011895843208080804 |	0.3211877666181817 |  
+  
+Where isomiR is miRNA name, expression_median is the median of miRNA expression, activity is miRNA activity, p_value is p-value for activity, FDR is False Discovery Rate.
+
+**target_intersection.py** takes files with activities and list of miRNAs and then finds target intersections for them. Script is useful for understanding which miRNAs have the same targets genes.  
+  
 
 ### Results:
 - 38% of highly expressed isomiRs (63 entries) were expressed in 10 or more cancer types, including 11 non-canonical 5’-isomiRs;  
