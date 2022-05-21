@@ -51,7 +51,7 @@ TCGA-COAD example:
 - For a given 5’-isomiR and cancer type broad 5’-isomiR targeting activity was denoted.  
 
 | First Header  | Second Header |
-| ------------- | ------------- |
+| ------------- | ------------- | 
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
  
