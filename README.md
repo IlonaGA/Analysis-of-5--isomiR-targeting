@@ -3,7 +3,7 @@
 To analyse and identify 5’-isomiRs with significant targeting activity in a given set of samples with available isomiR/mRNA expression data.
 
 ### Repository description:
-Repository contains scripts which were used for calculating miRNAs activity. 
+Repository contains scripts which were used for calculating miRNAs activity.   
 **1_create_raw_and_summary.py** takes RPM-normalized TCGA data and the list of predicted targets for each TCGA project. The result of script is two tables: TCGA_project_name_raw.tsv and TCGA_project_name_summary.tsv.  
   
 Example of TCGA_project_name_raw.tsv table:  
