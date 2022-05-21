@@ -48,4 +48,8 @@ TCGA-COAD example:
 - The 5’-isomiR-gene interaction networks for each cancer from TCGA were constructed;  
 - Dependency between the number of predicted targets and the number of anti-correlating targets was examined.
 
+### Conclusions:
+- Distribution of Spearmanʹs correlation coefficients between the number of predicted targets and the number of anti-correlating targets varies for different types of cancer.
+
+
  
