@@ -1,7 +1,10 @@
 # Analysis-of-5-isomiR-targeting
 
 ### Background  
-MiRNAs are short non-coding molecules that are able to regulate gene expression post-transcriptionally (1). Previous studies showed that miRNAs may have variabilities at their 5ʹ- and 3ʹ-ends, which appear during miRNA proccessing due to innacurate cleavage of Drosha and Dicer enzymes, these variants of miRNAs were named isomiRs (2, 3).
+MiRNAs are short non-coding molecules that are able to regulate gene expression post-transcriptionally (1). Previous studies showed that miRNAs may have variabilities at their 5ʹ- and 3ʹ-ends, which appear during miRNA proccessing due to innacurate cleavage of Drosha and Dicer enzymes, these variants of miRNAs were named isomiRs (2, 3). Each miRNA binds to its target-gene via seed region, that is nucleotides sequence located at positions 2-7 of 5'-end. Single nucleotide variation at the 5ʹ-end could alter the seed sequence, which can lead to different target gene binding.
+MiRNA processing (4):  
+<img src="[https://github.com/IlonaGA/Analysis-of-5--isomiR-targeting/blob/main/Images/res.png](https://www.mdpi.com/ijms/ijms-21-01723/article_deploy/html/images/ijms-21-01723-g001.png)" width="500"/> 
+
 
 ### Aim 
 To analyse and identify 5’-isomiRs with significant targeting activity in a given set of samples with available isomiR/mRNA expression data.
@@ -67,4 +70,4 @@ Plot:
 1. Hobert,O. (2008) Gene regulation by transcription factors and microRNAs. Science, 319, 1785–6.
 2. Morin,R.D., O’Connor,M.D., Griffith,M., Kuchenbauer,F., Delaney,A., Prabhu,A.L., Zhao,Y., McDonald,H., Zeng,T., Hirst,M., et al. (2008) Application of massively parallel sequencing  to microRNA profiling and discovery in human embryonic stem cells. Genome Res., 18, 610–621.
 3. Neilsen,C.T., Goodall,G.J. and Bracken,C.P. (2012) IsomiRs – the overlooked repertoire in the dynamic microRNAome. Trends Genet., 28, 544–549.
- 
+4. Ali Syeda, Z., Langden, S., Munkhzul, C., Lee, M., & Song, S. J. (2020). Regulatory Mechanism of MicroRNA Expression in Cancer. International journal of molecular sciences, 21(5), 1723. 
