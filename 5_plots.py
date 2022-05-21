@@ -42,7 +42,7 @@ for database in databases:
 
     for project in files:
         data = pd.read_csv(f'/huge/steve/isomiR_research/{database}/corr_analysis/TMM-RPM/{project}_tumor_summary.tsv', sep='\t', index_col=0)
-        highly_expressed = pd.read_csv(f'/huge/steve/isomiR_research/expression_data/highly_expressed_isomiRs/{project}_tumor.tsv', sep='\t', index_col=0)
+        highly_expressed = pd.read_csv(f'//{project}_tumor.tsv', sep='\t', index_col=0) # Highly expressed isomiRs list
 
         data = data.loc[set(data.index) & set(highly_expressed.index)]
 
@@ -96,8 +96,8 @@ for database in databases:
     
     #project 1
     project = files[0]
-    data = pd.read_csv(f'/huge/steve/isomiR_research/{database}/corr_analysis/TMM-RPM/{project}_tumor_summary.tsv', sep='\t', index_col=0)
-    highly_expressed = pd.read_csv(f'/huge/steve/isomiR_research/expression_data/highly_expressed_isomiRs/{project}_tumor.tsv', sep='\t', index_col=0)
+    data = pd.read_csv(f'/{project}_tumor_summary.tsv', sep='\t', index_col=0) # Summary table
+    highly_expressed = pd.read_csv(f'/{project}_tumor.tsv', sep='\t', index_col=0) # Highly expressed isomiRs list
 
     data = data.loc[set(data.index) & set(highly_expressed.index)]
 
@@ -110,8 +110,8 @@ for database in databases:
 
     #project 2
     project = files[1]
-    data = pd.read_csv(f'/huge/steve/isomiR_research/{database}/corr_analysis/TMM-RPM/{project}_tumor_summary.tsv', sep='\t', index_col=0)
-    highly_expressed = pd.read_csv(f'/huge/steve/isomiR_research/expression_data/highly_expressed_isomiRs/{project}_tumor.tsv', sep='\t', index_col=0)
+    data = pd.read_csv(f'/{project}_tumor_summary.tsv', sep='\t', index_col=0) #Summary table
+    highly_expressed = pd.read_csv(f'/{project}_tumor.tsv', sep='\t', index_col=0) # Highly expressed isomiRs list
 
     data = data.loc[set(data.index) & set(highly_expressed.index)]
 
