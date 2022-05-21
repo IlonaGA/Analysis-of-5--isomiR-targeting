@@ -36,10 +36,6 @@ interaction_path = sys.argv[2] #path should not contain '/' in the end
 
 threshold = -0.3
 
-final_df = pd.DataFrame(columns=['isomiR', 'expression_median', 'predicted_targets', 'sign_corr'])
-final_df.head()
-bootstrap_table = []
-
 data_df = pd.read_csv(f'/path/to/files/{TCGA_project}_RPM.tsv', sep='\t', index_col=0) #Path to RPM files
 interaction_df = pd.read_csv(f'{interaction_path}/path/to/files/{TCGA_project}.tsv', sep='\t') #Path to files with tagrets
 interaction_df.columns = ['isomiR', 'gene']
