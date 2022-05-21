@@ -7,7 +7,7 @@ Repository contains scripts which were used for calculating miRNAs activity.
 - 1_create_raw_and_summary.py takes RPM-normalized TCGA data and the list of predicted targets for each TCGA project. The result of script is two tables: TCGA_project_name_raw.tsv and TCGA_project_name_summary.tsv.  
 Example of TCGA_project_name_raw.tsv table:  
 | isomiR | gene	| isomiR_expression_median | gene_expression_median |	corr | sample size | proba |  
-| ------ | ---- | ------------------------ | ---------------------- | ---- | ----------- | ----- |  
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | hsa-miR-381-3p|0 | AADAC | 8.90024574856556 |	0.845765094812417 |	-0.14747205 |	79 | 0.08140444164119565 |  
 | hsa-miR-182-5p|0	| AAGAB	| 13.013437774635646 |	3.59722347655838 | 0.108154766 | 79 | 0.00013937321980098482 |    
 Where isomiR is miRNA name, gene is target gene, isomiR_expression_median is median for miRNA expression, gene_expression_median is target gene expression median, corr is Spearman correlation between miRNA expression and target gene expression, sample size is the amount of samples for each miRNA, proba is
