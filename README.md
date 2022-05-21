@@ -29,7 +29,7 @@ Where isomiR is miRNA name, expression_median is the median of miRNA expression,
 Example of of result file table:  
 
 | isomiR | expression_median | activity |	p_value |	FDR |  
-| ------------- | ------------- | ------------- | ------------- |  
+| ------------- | ------------- | ------------- | ------------- | ------------- |    
 | hsa-miR-29c-3p/0 | 12.386809776223426 |	7.0 |	7.474732213013041e-09 |	4.0363553950270426e-07 |  
 | hsa-miR-30a-5p/0 |	17.094263109900616 |	1.0 |	0.011895843208080804 |	0.3211877666181817 |  
   
