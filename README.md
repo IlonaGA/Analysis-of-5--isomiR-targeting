@@ -65,7 +65,7 @@ Plot:
 - Isoforms of one miRNA can have different target genes;
 - Distribution of Spearmanʹs correlation coefficients between the number of predicted targets and the number of anti-correlating targets varies for different types of cancer.
 
-### References
+### References:
 
 1. Hobert,O. (2008) Gene regulation by transcription factors and microRNAs. Science, 319, 1785–6.
 2. Morin,R.D., O’Connor,M.D., Griffith,M., Kuchenbauer,F., Delaney,A., Prabhu,A.L., Zhao,Y., McDonald,H., Zeng,T., Hirst,M., et al. (2008) Application of massively parallel sequencing  to microRNA profiling and discovery in human embryonic stem cells. Genome Res., 18, 610–621.
