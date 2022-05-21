@@ -56,7 +56,7 @@ Plot:
 
 
 ### Results:  
-- Activity of 5’-isomiRs adjusted for background correlation effects was infered;  
+- Activity of 5’-isomiRs adjusted for background correlation effects was inferred;  
 - The 5’-isomiR-gene interaction networks for each cancer from TCGA were constructed;  
 - Dependency between the number of predicted targets and the number of anti-correlating targets was examined.
 
