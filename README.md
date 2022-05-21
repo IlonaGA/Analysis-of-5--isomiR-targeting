@@ -12,7 +12,16 @@ Example of TCGA_project_name_raw.tsv table:
 | hsa-miR-381-3p/0 | AADAC | 8.90024574856556 |	0.845765094812417 |	-0.14747205 |	79 | 0.08140444164119565 |  
 | hsa-miR-182-5p/0	| AAGAB	| 13.013437774635646 |	3.59722347655838 | 0.108154766 | 79 | 0.00013937321980098482 |    
   
-Where isomiR is miRNA name, gene is target gene, isomiR_expression_median is median for miRNA expression, gene_expression_median is target gene expression median, corr is Spearman correlation between miRNA expression and target gene expression, sample size is the amount of samples for each miRNA, proba is
+Where isomiR is miRNA name, gene is target gene, isomiR_expression_median is the median of miRNA expression, gene_expression_median is target gene expression median, corr is Spearman correlation between miRNA expression and target gene expression, sample size is the amount of samples for each miRNA, proba is cdf of Spearman correlation distribution.
+
+Example of TCGA_project_name_summary.tsv table:  
+
+| isomiR | expression_median | predicted_targets |	sign_corr |  
+| ------------- | ------------- | ------------- | ------------- |
+| hsa-miR-96-5p/0 |	3.877957395587893 |	182 |	19 |  
+hsa-miR-424-5p/0 |	9.549397891501824 |	206 |	22 |  
+
+Where isomiR is miRNA name, expression_median is the median of miRNA expression, predicted_targets is number of predicted targets, sign_corr is amount of anti-correlated target genes.
 
 - 
 
